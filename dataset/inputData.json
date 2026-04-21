@@ -1,14 +1,15 @@
 {
     "name": "Ahan Roy",
-    "age" : "40",
     "number": "8976568790",
-    "wrongNumber": "123456789",
-    "disease": "Diabetes",
+    "age": "40",
+    "salaryRandge": "2-5",
     "pin": "713423",
+    "disease": "Diabetes",
     "carBrand": "Tata",
     "carModel": "Indigo",
     "fuelType": "Diesel",
     "carVarient": "Classic Dicor (1396 cc)",
     "carYear": "2026",
-    "city": "Kolkata"
+    "city": "Kolkata",
+    "wrongNumber": "123457890"
 }
