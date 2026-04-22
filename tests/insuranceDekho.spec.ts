@@ -2,7 +2,7 @@ import { test } from '@playwright/test';
 import { POManager } from '../pages/POManager';
 import inputData from '../dataset/inputData.json';
 
-test.describe.serial("InsuranceDekho Tests", () => {
+test.describe.serial("InsuranceDekho Tests @main", () => {
     let poManager: POManager;
 
     test.beforeEach(async ({ page }) => {

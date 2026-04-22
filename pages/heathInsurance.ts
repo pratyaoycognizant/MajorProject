@@ -44,7 +44,7 @@ export class HeathInsurancePage {
         await this.searchBox.pressSequentially(age);
         await this.ageLocator.click();
         await this.pinCode.click();
-        await this.pinCode.fill(pin);
+        await this.pinCode.pressSequentially(pin, { delay: 100 });
         await this.continueBtn.waitFor({ state: 'visible' });
         await this.continueBtn.scrollIntoViewIfNeeded();
         await this.continueBtn.click();
