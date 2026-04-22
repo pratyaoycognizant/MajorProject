@@ -1,4 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","4803","Car Insurance","chromium","2026-04-22","passed","2026-04-22","InsuranceDekho Tests @main","insuranceDekho.spec.ts","",""
-"","12331","Health Insurance","chromium","2026-04-22","passed","2026-04-22","InsuranceDekho Tests @main","insuranceDekho.spec.ts","",""
-"","6366","Investment Plan","chromium","2026-04-22","passed","2026-04-22","InsuranceDekho Tests @main","insuranceDekho.spec.ts","",""
+"","6040","Investment Plan","chromium","2026-04-22","passed","2026-04-22","InsuranceDekho Tests @main","insuranceDekho.spec.ts","",""
+"","10791","Health Insurance","chromium","2026-04-22","passed","2026-04-22","InsuranceDekho Tests @main","insuranceDekho.spec.ts","",""
+"","5505","Car Insurance","chromium","2026-04-22","passed","2026-04-22","InsuranceDekho Tests @main","insuranceDekho.spec.ts","",""

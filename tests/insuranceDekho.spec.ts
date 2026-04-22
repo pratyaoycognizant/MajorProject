@@ -30,7 +30,7 @@ test.describe.serial("InsuranceDekho Tests @main", () => {
         await investmentPage.navigateToInvestmentPlans();                                  // TC-007
         await investmentPage.fillLeadForm(inputData.name, inputData.number);               // TC-008
         await investmentPage.handlePopupIfRequired(inputData.age, inputData.salaryRandge); // TC-009
-        await investmentPage.getAndPrintResults();                                         // TC-0010
+        await investmentPage.getAndPrintResults();                                         // TC-010
     });
 
     // TS-03 | TC-011 to TC-015

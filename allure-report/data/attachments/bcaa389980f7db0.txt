@@ -1,0 +1,1 @@
+Error message for invalid mobile number: Invalid mobile number.
