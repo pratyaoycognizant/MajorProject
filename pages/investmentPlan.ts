@@ -78,6 +78,8 @@ export class InsurancedekhoPage {
 
         const results = await this.resultCards.all();
 
+        console.log("-------------------------------------------------------");
+        console.log("Investment Plans and their Premiums:");
         for (const result of results) {
             const hasParagraph = await result.locator("p").first().isVisible();
             if (!hasParagraph) continue;
@@ -86,5 +88,7 @@ export class InsurancedekhoPage {
             const price = await result.locator("h4").first().textContent();
             console.log(`Plan: ${name}, Price: ${price}`);
         }
+        console.log("-------------------------------------------------------");
+        console.log();
     }
 }

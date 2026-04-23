@@ -70,6 +70,9 @@ export class CarInsurancePage {
         await this.customerName.fill(name);
         await this.mobileNumber.fill(mobile);
         const msg = await this.page.locator('.srv-validation-message').nth(0).textContent();
+        console.log("-------------------------------------------------------");
         console.log("Error message for invalid mobile number: " + msg);
+        console.log("-------------------------------------------------------");
+        console.log();
     }
 }

@@ -84,8 +84,12 @@ export class HeathInsurancePage {
             premiums.push(await this.page.locator(".quoteCardRight p").nth(i).textContent());
         }
 
+        console.log("-------------------------------------------------------");
+        console.log("Top 3 Plans sorted by Premium (Low to High):");
         for (let i = 0; i < 3; i++) {
             console.log(`Plan: ${plans[i]}, Premium: ${premiums[i]}`);
         }
+        console.log("-------------------------------------------------------");
+        console.log();
     }
 }
