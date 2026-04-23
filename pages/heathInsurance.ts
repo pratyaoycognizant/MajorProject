@@ -58,6 +58,7 @@ export class HeathInsurancePage {
         await this.ageLocator.click();
         await this.pinCode.click();
         await this.pinCode.pressSequentially(pin, { delay: 100 });
+        await this.page.waitForTimeout(1000);
         await this.continueBtn.waitFor({ state: 'visible' });
         await this.continueBtn.scrollIntoViewIfNeeded();
         await this.continueBtn.click();
@@ -71,6 +72,7 @@ export class HeathInsurancePage {
 
     // TS-01 | TC-006: Sort plans by Premium Low to High and log top 3
     async sortAndLogTopThreePlans() {
+        await this.page.waitForTimeout(1000);
         await this.sortBtn.click();
         await this.lowToHigh.click();
 

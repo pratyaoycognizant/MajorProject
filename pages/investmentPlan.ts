@@ -39,6 +39,7 @@ export class InsurancedekhoPage {
     // TS-02 | TC-008: fill lead form
     async fillLeadForm(name: string, mobile: string) {
         await this.page.locator("h2.leadFormTitle").click();
+        await this.page.waitForTimeout(1000);
 
         await this.nameLabel.waitFor();
         await this.nameLabel.click();
